@@ -58,10 +58,10 @@ function SpreeQuickCart() {
   this.buttonEnabled = function(enabled) {
     if (enabled == false){
       that.submitButton.attr("disabled", "disabled");
-      that.submitButton.text("Adding..");
+      that.submitButton.text("Hinzufügen..");
     } else {
       that.submitButton.removeAttr("disabled");
-      that.submitButton.text("Add to cart");
+      that.submitButton.text("Hinzugefügt");
     }
   };
 
